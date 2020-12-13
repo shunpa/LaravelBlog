@@ -53,7 +53,7 @@
 			@csrf
 			<input type="hidden" name="article_id" value="{{ $article->id }}">
 			<textarea name="content" class="form-control mb-2" placeholder="New Comment"></textarea>
-			<input type="submit" value="Add Comment">
+			<input type="submit" value="Add Comment" class="btn btn-primary">
 		</form>
 		@endauth
 
